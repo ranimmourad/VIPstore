@@ -270,7 +270,7 @@ export const products: Product[] = [
     name: "Natura Floral Tie-Shoulder Set",
     brand: "Zimmermann",
     price: 1850,
-    category: "sets",
+    category: "dresses",
     description:
       "A two-piece in silk-cotton voile printed with the Natura morning-glory bouquet. Tiered camisole with lace insertion and matching scalloped shorts — Zimmermann at its most lyrical.",
     details: [
@@ -385,6 +385,12 @@ export const getProductById = (id: string) =>
 
 export const getProductsByCategory = (cat: string) =>
   products.filter((p) => p.category === cat);
+
+export const getProductsByBrand = (brand: string) =>
+  products.filter((p) => p.brand === brand);
+
+export const getBrands = () =>
+  [...new Set(products.map((p) => p.brand))].sort();
 
 export const getNewArrivals = () => products.filter((p) => p.isNew);
 export const getBestSellers = () => products.filter((p) => p.isBestSeller);

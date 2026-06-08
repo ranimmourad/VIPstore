@@ -19,12 +19,12 @@ export default function HomePage() {
       <section className="relative w-full">
         <div className="relative w-full aspect-[16/11] sm:aspect-[16/9] lg:aspect-[21/9] bg-ivory overflow-hidden">
           <Image
-            src="/products/zimmermann-floral-set.jpg"
+            src="/hero.jpg"
             alt="VIP Store — Editorial campaign"
             fill
             priority
             sizes="100vw"
-            className="object-cover object-[50%_15%]"
+            className="object-cover object-[50%_30%]"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-warm/55 via-warm/15 to-transparent" />
 
