@@ -37,14 +37,6 @@ export default function Header() {
 
   return (
     <>
-      {/* Announcement bar */}
-      <div className="bg-ink text-warm text-[10.5px] tracking-[0.28em] uppercase">
-        <div className="max-w-[1600px] mx-auto px-6 py-2.5 text-center">
-          Complimentary delivery across Tunisia &nbsp;·&nbsp; Authentic luxury,
-          sourced in Dubai
-        </div>
-      </div>
-
       <header
         className={`sticky top-0 z-40 bg-warm/95 backdrop-blur-sm transition-shadow ${
           scrolled ? "shadow-[0_1px_0_rgba(0,0,0,0.06)]" : ""

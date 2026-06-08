@@ -24,40 +24,31 @@ export default function HomePage() {
             fill
             priority
             sizes="100vw"
-            className="object-cover object-[50%_30%]"
+            className="object-cover object-[50%_35%]"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-warm/55 via-warm/15 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-ink/65 via-ink/20 to-transparent" />
 
           <div className="absolute inset-0 flex items-center">
             <div className="max-w-[1600px] mx-auto w-full px-6 lg:px-14">
-              <div className="max-w-[560px] fade-in">
-                <p className="eyebrow mb-5">The Summer Edit · 2026</p>
-                <h1 className="serif-display text-[40px] sm:text-[56px] lg:text-[80px] leading-[0.98] tracking-[-0.01em] text-ink">
+              <div className="max-w-[85%] sm:max-w-[480px] lg:max-w-[560px] fade-in">
+                <p className="eyebrow mb-4 sm:mb-5 text-warm/80 sm:text-[#6B6357]">The Summer Edit · 2026</p>
+                <h1 className="serif-display text-[28px] sm:text-[56px] lg:text-[80px] leading-[0.98] tracking-[-0.01em] text-warm sm:text-ink">
                   Luxury, <em className="cormorant italic font-light">curated</em> in Dubai.
                 </h1>
-                <p className="cormorant text-[20px] sm:text-[24px] text-graphite mt-6 max-w-md leading-relaxed">
+                <p className="cormorant text-[16px] sm:text-[24px] text-warm/80 sm:text-graphite mt-4 sm:mt-6 leading-relaxed">
                   Authentic pieces from the world's leading maisons,
                   delivered to your door across Tunisia.
                 </p>
-                <div className="mt-10 flex flex-wrap gap-4">
-                  <Link href="/shop" className="btn-primary">
+                <div className="mt-7 sm:mt-10 flex flex-wrap gap-3 sm:gap-4">
+                  <Link href="/shop" className="btn-primary px-6 py-3.5 sm:px-8 sm:py-4 text-[10px] sm:text-[11px]">
                     Discover Collection
                   </Link>
-                  <Link href="/shop?filter=new" className="btn-outline">
+                  <Link href="/shop?filter=new" className="btn-outline border-warm text-warm hover:bg-warm hover:text-ink px-6 py-3.5 sm:px-8 sm:py-4 sm:border-ink sm:text-ink sm:hover:bg-ink sm:hover:text-warm text-[10px] sm:text-[11px]">
                     New Arrivals
                   </Link>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Tagline strip */}
-        <div className="border-y hairline bg-ivory">
-          <div className="max-w-[1600px] mx-auto px-6 lg:px-10 py-5 text-center">
-            <p className="eyebrow">
-              VIP Store · Luxury Fashion From Dubai To Tunisia
-            </p>
           </div>
         </div>
       </section>
