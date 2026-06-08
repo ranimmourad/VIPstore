@@ -17,7 +17,7 @@ export default function HomePage() {
     <>
       {/* ============ HERO ============ */}
       <section className="relative w-full">
-        <div className="relative w-full aspect-[3/4] sm:aspect-[16/9] lg:aspect-[21/9] bg-ivory overflow-hidden">
+        <div className="relative w-full aspect-[4/5] sm:aspect-[16/9] lg:aspect-[21/9] bg-ivory overflow-hidden">          
           <Image
             src="/hero.jpg"
             alt="VIP Store — Editorial campaign"
